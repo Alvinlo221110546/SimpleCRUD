@@ -5,8 +5,9 @@ Aplikasi fullstack sederhana untuk manajemen data menggunakan **React.js** sebag
 
 ---
 
-## 🧩 Struktur Proyek
+## 📁 Struktur Proyek
 
+```bash
 📦 root/
 ├── 💻 Frontend/                  # Frontend: React.js
 │   ├── 🌐 public/
@@ -30,10 +31,8 @@ Aplikasi fullstack sederhana untuk manajemen data menggunakan **React.js** sebag
 │
 ├── 🧾 simplecrud_db.sql          # Struktur tabel SQL
 └── 📘 README.md                  # Dokumentasi proyek
+```
 
-yaml
-Copy
-Edit
 
 ---
 
