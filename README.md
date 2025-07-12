@@ -8,28 +8,28 @@ Aplikasi fullstack sederhana untuk manajemen data menggunakan **React.js** sebag
 ## 🧩 Struktur Proyek
 
 📦 root/
-┣ 📂 Frontend/ # Aplikasi frontend React
-┃ ┣ 📂 public/
-┃ ┣ 📂 src/
-┃ ┃ ┣ 📄 App.js # Komponen utama
-┃ ┃ ┣ 📄 index.js # Entry point React
-┃ ┃ ┣ 📄 App.css # Styling global
-┃ ┃ ┗ 📄 reportWebVitals.js # Opsional: monitoring performa
-┃ ┣ 📄 package.json # Dependency React
-┃ ┗ 📄 setupTests.js # Untuk testing
-┃
-┣ 📂 backend/ # Backend menggunakan Express
-┃ ┣ 📂 config/
-┃ ┃ ┗ 📄 database.js # Koneksi ke database MySQL
-┃ ┣ 📂 models/
-┃ ┃ ┗ 📄 item.js # Skema model data
-┃ ┣ 📂 routes/
-┃ ┃ ┗ 📄 ItemsRoutes.js # Rute API CRUD
-┃ ┣ 📄 server.js # Entry point server Express
-┃ ┗ 📄 package.json # Dependency backend
-┃
-┣ 📄 simplecrud_db.sql # File SQL untuk membuat tabel
-┗ 📄 README.md # Dokumentasi proyek
+├── 💻 Frontend/                  # Frontend: React.js
+│   ├── 🌐 public/
+│   ├── 📁 src/
+│   │   ├── ⚙️ App.js
+│   │   ├── 🚀 index.js
+│   │   ├── 🎨 App.css
+│   │   └── 📊 reportWebVitals.js
+│   ├── 📦 package.json
+│   └── 🧪 setupTests.js
+│
+├── 🖥️ backend/                   # Backend: Node.js + Express
+│   ├── 🔧 config/
+│   │   └── 🗄️ database.js
+│   ├── 🧩 models/
+│   │   └── 📄 item.js
+│   ├── 🛣️ routes/
+│   │   └── 📄 ItemsRoutes.js
+│   ├── 🚀 server.js
+│   └── 📦 package.json
+│
+├── 🧾 simplecrud_db.sql          # Struktur tabel SQL
+└── 📘 README.md                  # Dokumentasi proyek
 
 yaml
 Copy
